@@ -1,0 +1,13 @@
+<packageDefine name="glog" version="1" type="cpp" includedir="." platform="all">
+	<parameter/>
+	<depend>
+	</depend>
+	<cppfile>
+	</cppfile>
+	<headfile>
+	</headfile>
+	<libfile>
+		<file name="glog"/>
+	</libfile>
+	<command/>
+</packageDefine>
