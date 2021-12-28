@@ -1,0 +1,19 @@
+<packageDefine name="glog" version="1" type="cpp" includedir="." platform="all">
+	<parameter/>
+	<depend>
+	</depend>
+	<cppfile>
+	</cppfile>
+	<headfile>
+		<file name="log_severity.h"/>
+		<file name="logging.h"/>
+		<file name="platform.h"/>
+		<file name="raw_logging.h"/>
+		<file name="stl_logging.h"/>
+		<file name="vlog_is_on.h"/>
+	</headfile>
+	<libfile>
+		<file name="glog"/>
+	</libfile>
+	<command/>
+</packageDefine>
