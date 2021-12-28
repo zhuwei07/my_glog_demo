@@ -27,6 +27,12 @@ int main(int argc, char* argv[])
     google::SetLogDestination(google::GLOG_INFO, strLogName.c_str());
     //FLAGS_logbufsecs = 0;
     //FLAGS_stop_logging_if_full_disk = true;
-    LOG(ERROR) << "Hello, World!";
+    int counts = 0;
+    while (true)
+    {
+        LOG(INFO) << "Hello World, send counts: " << counts;
+        counts++;
+        Sleep(1000);
+    }
     google::ShutdownGoogleLogging();
 }
